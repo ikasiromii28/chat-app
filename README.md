@@ -34,7 +34,7 @@
 | room   | references | null: false, foreign_key: true |
 
 ### Association
-- belomgs_to :room
+- belongs_to :room
 - belongs_to :user
 
 ## messages テーブル

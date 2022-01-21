@@ -14,6 +14,7 @@ class RoomsController < ApplicationController
     else
       render :new
     end
+    # create = new + save
   end
 
   def destroy
